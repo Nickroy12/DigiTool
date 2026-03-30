@@ -10,7 +10,7 @@
       "50+ writing templates",
       "Grammar checker"
     ],
-    "icon": "/src/image/product/writing.png"
+    "icon": "/src/assets/products/writing.png"
   },
   {
     "title": "Design Templates Pack",
@@ -23,7 +23,7 @@
       "Monthly updates",
       "Commercial license"
     ],
-    "icon": "/src/image/product/design-tool.png"
+    "icon": "/src/assets/products/design-tool.png"
   },
   {
     "title": "Premium Stock Assets",
@@ -36,7 +36,7 @@
       "Commercial use",
       "No attribution"
     ],
-    "icon": "/src/image/product/cam.png"
+    "icon": "/src/assets/products/cam.png"
   },
   {
     "title": "Automation Toolkit",
@@ -49,7 +49,7 @@
       "API access",
       "Custom workflows"
     ],
-    "icon": "/src/image/product/operation.png"
+    "icon": "/src/assets/products/operation.png"
   },
   {
     "title": "Resume Builder Pro",
@@ -62,7 +62,7 @@
       "ATS optimization",
       "Export to PDF"
     ],
-    "icon": "/src/image/product/resume.png"
+    "icon": "../src/assets/products/portfolio.png"
   },
   {
     "title": "Social Media Content Kit",
@@ -75,6 +75,6 @@
       "Scheduler included",
       "Analytics dashboard"
     ],
-    "icon": "/src/image/product/social-media.png"
+    "icon": "../src/assets/products/social-media.png"
   }
 ]

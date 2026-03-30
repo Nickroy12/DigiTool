@@ -1,7 +1,7 @@
 import React from 'react'
 import { CiShoppingCart } from 'react-icons/ci'
 
-export const Navbar = () => {
+export const Navbar = ({select , setSelect}) => {
   return (
     <div className='shadow-sm'>
       <div className='w-10/12 m-auto'>
@@ -24,9 +24,11 @@ export const Navbar = () => {
           <div className='flex items-center gap-4'>
             <div className='relative'>
               <CiShoppingCart className='text-2xl' />
-              <span className='absolute -top-2 -right-2 text-xs px-1 rounded-full text-white bg-red-600'>
-                0
-              </span>
+      {select.length > 0 && (
+  <span className='absolute -top-2 -right-2 text-xs px-1 rounded-full text-white bg-red-600'>
+    {select.length}
+  </span>
+)}
             </div>
 
             <h2 className='cursor-pointer'>Login</h2>
