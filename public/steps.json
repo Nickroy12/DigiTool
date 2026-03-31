@@ -5,7 +5,7 @@
     "description": "Sign up for free account to start exploring all our products and tools.",
     "icon": "create-account",
     "step": 1,
-    "icon": "../src/assets/user.png"
+    "icon": "../user.png"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "description": "Browse and select the tools and services that match your needs.",
     "icon": "choose-products",
     "step": 2,
-    "icon": "../src/assets/package.png"
+    "icon": "../package.png"
   },
   {
     "id": 3,
@@ -21,6 +21,6 @@
     "description": "Download, use, and manage your products instantly with ease.",
     "icon": "start-creating",
     "step": 3,
-    "icon": "../src/assets/rocket.png"
+    "icon": "../rocket.png"
   }
 ]
