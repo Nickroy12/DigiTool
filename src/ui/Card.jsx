@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
 import { FaCheck } from 'react-icons/fa'
+import { toast } from 'react-toastify'
 
 
 export const Card = ({tool,select , setSelect}) => {
-  const [isToogle , setIsToogle] = useState(false)
+  const isToogle = select.some(item => item.id === tool.id)
   
   const buttonHandler = ()=>{
-    setIsToogle(true)
-    alert(`${tool.title} tool has purchase`)
+   
+    toast.success(`${tool.title} tool has purchase`)
     setSelect([...select , tool])
   }
   return (
@@ -22,7 +23,7 @@ export const Card = ({tool,select , setSelect}) => {
 
       <h2 className="text-3xl font-bold">{tool.title}</h2>
       <h2 className=" font-light text-zinc-500">{tool.description}</h2>
-       <h2 className="text-xl font-bold">{tool.price}/<span className='font-light to-zinc-500'>{tool.billing_cycle}</span></h2>
+       <h2 className="text-xl font-bold">${tool.price}/<span className='font-light to-zinc-500'>{tool.billing_cycle}</span></h2>
 
       
  

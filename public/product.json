@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "AI Writing Pro",
     "badge": "Best Seller",
     "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
@@ -13,6 +14,7 @@
     "icon": "/src/assets/products/writing.png"
   },
   {
+    "id": 2,
     "title": "Design Templates Pack",
     "badge": "Popular",
     "description": "2000+ premium templates for social media, presentations, and marketing materials.",
@@ -26,6 +28,7 @@
     "icon": "/src/assets/products/design-tool.png"
   },
   {
+    "id": 3,
     "title": "Premium Stock Assets",
     "badge": "New",
     "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
@@ -39,6 +42,7 @@
     "icon": "/src/assets/products/cam.png"
   },
   {
+    "id": 4,
     "title": "Automation Toolkit",
     "badge": "Popular",
     "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
@@ -52,6 +56,7 @@
     "icon": "/src/assets/products/operation.png"
   },
   {
+    "id": 5,
     "title": "Resume Builder Pro",
     "badge": "New",
     "description": "Create professional resumes and cover letters that land interviews.",
@@ -65,6 +70,7 @@
     "icon": "../src/assets/products/portfolio.png"
   },
   {
+    "id": 6,
     "title": "Social Media Content Kit",
     "badge": "Best Seller",
     "description": "Complete toolkit for creating engaging social media content across all platforms.",
