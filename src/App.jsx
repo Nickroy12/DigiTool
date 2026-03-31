@@ -5,6 +5,8 @@ import { Hero } from './components/Hero'
 import { Navbar } from './components/Navbar'
 import { Tools } from './components/Tools'
 import { ToastContainer } from 'react-toastify'
+import { Footer } from './components/Footer'
+import { Step } from './components/Step'
 
 function App() {
    const [select , setSelect] = useState([])
@@ -12,8 +14,12 @@ function App() {
     const res = await fetch('./product.json')
     return res.json()
   }
-
+  const fetchStep = async () =>{
+    const res = await fetch('./steps.json')
+     return res.json()
+  }
   const dataPromise = dataFetch();
+  const stepPromise = fetchStep()
 
   return (
     <div>
@@ -24,7 +30,11 @@ function App() {
       <Suspense fallback={<p>Loading tools...</p>}>
         <Tools dataPromise={dataPromise} select={select} setSelect={setSelect}/>
       </Suspense>
+      <Suspense fallback={<p>Loading tools...</p>}>
+        <Step stepPromise={stepPromise}/>
+      </Suspense>
         <ToastContainer />
+        <Footer/>
     </div>
   )
 }

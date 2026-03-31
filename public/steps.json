@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Create Account",
+    "description": "Sign up for free account to start exploring all our products and tools.",
+    "icon": "create-account",
+    "step": 1,
+    "icon": "../src/assets/user.png"
+  },
+  {
+    "id": 2,
+    "title": "Choose Products",
+    "description": "Browse and select the tools and services that match your needs.",
+    "icon": "choose-products",
+    "step": 2,
+    "icon": "../src/assets/package.png"
+  },
+  {
+    "id": 3,
+    "title": "Start Creating",
+    "description": "Download, use, and manage your products instantly with ease.",
+    "icon": "start-creating",
+    "step": 3,
+    "icon": "../src/assets/rocket.png"
+  }
+]

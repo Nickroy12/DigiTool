@@ -14,7 +14,7 @@ export const Tools = ({dataPromise , select , setSelect}) => {
            <Toggle tab={tab} setTab={setTab} select={select} setSelect={setSelect}/>
       { tab === 'Products' ?  <div className='grid md:grid-cols-3 gap-8'>
             {data.map(tool => {
-        return <Card tool={tool} select={select} setSelect={setSelect} />
+        return <Card key={tool.id} tool={tool} select={select} setSelect={setSelect} />
     })}
         </div> : <Selection select={select} setSelect={setSelect}/>}
     </div>
