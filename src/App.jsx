@@ -7,6 +7,8 @@ import { Tools } from './components/Tools'
 import { ToastContainer } from 'react-toastify'
 import { Footer } from './components/Footer'
 import { Step } from './components/Step'
+import { PriceCard } from './components/PriceCard'
+import { Join } from './components/Join'
 
 function App() {
    const [select , setSelect] = useState([])
@@ -33,8 +35,11 @@ function App() {
       <Suspense fallback={<p>Loading tools...</p>}>
         <Step stepPromise={stepPromise}/>
       </Suspense>
+      <PriceCard/>
+      <Join/>
         <ToastContainer />
         <Footer/>
+        
     </div>
   )
 }

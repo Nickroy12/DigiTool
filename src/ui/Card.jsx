@@ -33,7 +33,7 @@ export const Card = ({tool,select , setSelect}) => {
          })}
     </ul>
     <div className="mt-auto">
-      <button onClick={buttonHandler} className="btn bg-gradient-to-r from-[#4f39f6] to-[#9514fa] text-white btn-block" disabled={isToogle } >{isToogle  ? 'Subscribed': 'Subscribe Now'}</button>
+      <button onClick={buttonHandler} className="btn rounded-full bg-gradient-to-r from-[#4f39f6] to-[#9514fa] text-white btn-block" disabled={isToogle } >{isToogle  ? 'Subscribed': 'Subscribe Now'}</button>
     </div>
   </div>
 </div>
